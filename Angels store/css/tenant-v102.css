@@ -1,0 +1,143 @@
+[data-theme='dermstore'] .override-border {
+  border: none;
+}
+
+[data-theme='dermstore'] #site-header-nav {
+  background-color: #222;
+}
+
+@media (max-width: 1500px) {
+  [data-theme='dermstore'] #site-header-nav .nav-controls p  {
+    padding-left: 10px;
+    padding-right: 10px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+  }
+}
+
+[data-theme='dermstore'] .nav-controls {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+[data-theme='dermstore'] .nav-controls:hover,
+.nav-controls.active {
+  background-color: #fff;
+  color: #000;
+}
+
+[data-theme='dermstore'] .usp-banner {
+  background-color: #f2f2f2;
+}
+
+[data-theme='dermstore'] #layout-body .strip-banner {
+  background-color: #ccc;
+  color: #000;
+  text-transform: none;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+[data-theme='dermstore'] #layout-body .strip-banner:hover {
+  background-color: #e6e6e6;
+}
+
+[data-theme='dermstore'] #layout-body .strip-banner:focus {
+  background-color: #000;
+  color: #fff;
+}
+
+[data-theme='dermstore'] .nav-controls p,
+.navigation-container .container>.sub-nav-item>a,
+[data-theme='dermstore'] .strip-banner span {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04rem;
+}
+
+[data-theme='dermstore'] .custom-pap {
+  border-width: 1px;
+}
+
+.brand-logo-carousel-item {
+  margin: 0 8px;
+}
+
+[data-theme='dermstore'] .customWidgetMargin {
+  margin-bottom: 32px;
+}
+
+[data-theme='dermstore'] .title-container {
+  margin-bottom: 1.5rem;
+}
+
+[data-theme='dermstore'] .heading {
+  font-family: 'Libre Bodoni';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+  text-transform: capitalize;
+  margin-bottom: 24px;
+}
+
+[data-theme='dermstore'] #product-gallery div.force-aspect {
+  aspect-ratio: auto;
+}
+
+[data-theme='dermstore'] #product-gallery img {
+  object-fit: contain;
+  width: auto;
+}
+
+[data-theme='dermstore'] #product-gallery .carousel {
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+[data-theme='dermstore'] .global-primary-banner .banner-text {
+  width: 100%;
+}
+
+@media (min-width: 641px) {
+  [data-theme='dermstore'] .global-primary-banner .banner-text {
+    align-items: center;
+    padding: 3rem;
+    width: 50%;
+  }
+
+  [data-theme='dermstore'] .global-primary-banner-custom-padding {
+    min-width: 265px;
+  }
+
+  [data-theme='dermstore'] #basket-heading {
+    font-size: 28px;
+    line-height: 38px;
+  }
+}
+
+[data-theme='dermstore'] .basket-v2-bg {
+  background-color: #FBF8F0;
+}
+
+[data-theme='dermstore'] .inline-ratings,
+[data-theme='dermstore'] #ratingSummary {
+  min-height: 20px;
+}
+
+[data-theme='dermstore'] .footer-iconPlus {
+  fill: #121212;
+}
+
+[data-theme='dermstore'] #onetrust-footer,  #onetrust-footer-two {
+  text-transform: uppercase;
+}
+
+[data-theme='dermstore'] .choices-preview {
+  justify-content: center;
+}
+
+[data-theme='dermstore'] atbo-quantity-selector {
+  margin-left: auto;
+  margin-right: auto;
+}
